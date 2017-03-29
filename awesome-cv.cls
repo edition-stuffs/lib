@@ -496,10 +496,14 @@
   \fancyfoot{}
 
   \fancyfoot[L]{\footerstyle{#1}}
-  \fancyfoot[C]{\footerstyle{\begin{tabular}{ c }
-                                 \includegraphics[width=2cm]{logo.png}  \\
-                                 #2  \\
-                               \end{tabular}}}
+
+  \fancyfoot[C]{\footerstyle{#2}}
+
+%  \fancyfoot[C]{\footerstyle{\begin{tabular}{ c }
+%                                 \includegraphics[width=2cm]{logo.png}  \\
+%                                 #2  \\
+%                               \end{tabular}}}
+
   \fancyfoot[R]{\footerstyle{#3}}
 }
 
